@@ -27,7 +27,7 @@ const sendMail = async (req, res) => {
     text: `Your Message has been successfully send to Gautam Yadav ,
     ${req.body.message}`,
   });
-  // res.json([info, info2]);
+  res.json([info, info2]);
 };
 
 module.exports = sendMail;
