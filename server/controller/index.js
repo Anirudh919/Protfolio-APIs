@@ -24,7 +24,7 @@ const sendMail = async (req, res) => {
     to: req.body.senderEmail,
     subject: "feed-back message",
     text: "tst",
-    text: `Your Message has been successfully send to Gautam Yadav ,
+    text: `Your Message has been successfully send to Anirudh Kashyap ,
     ${req.body.message}`,
   });
   res.json([info, info2]);
